@@ -69,13 +69,11 @@ INSERT INTO tb_professor(id,nome,especialidade,salario) VALUES(2,'Sydney','Danca
 INSERT INTO tb_professor(id,nome,especialidade,salario) VALUES(3,'Fabricio','natacao',7000);
 INSERT INTO tb_professor(id,nome,especialidade,salario) VALUES(4,'joao','crossfit',5000);
 
-
 INSERT INTO tb_aluno(id,nome,contato,cpf,idade,sexo) VALUES(1,'arroz',83-0000000,1982773827-90,20,'M');
-
+INSERT INTO tb_aluno(id,nome,contato,cpf,idade,sexo) VALUES(2,'diogo',83-1111111,1982773827-90,30,'M');
+INSERT INTO tb_aluno(id,nome,contato,cpf,idade,sexo) VALUES(3,'ze',83-2222222,1982773827-90,40,'M');
 
 INSERT INTO tb_aula(id,turno,diadasemana,nomeaula,cod_professor,cod_aluno) VALUES (1,'noite','quarta-feira','musculacao',1,1);
+INSERT INTO tb_aula(id,turno,diadasemana,nomeaula,cod_professor,cod_aluno) VALUES (2,'noite','sexta-feira','danca',2,1);
 
--- Exemplo
-INSERT INTO tb_recepcao(id,funcionario,contato,aulas,cod_aluno) VALUES (1,'julia',830000000,'muculacao',1);
-
-```
+INSERT INTO tb_recepcao(id,funcionario,contato,aulaaluno,cod_aluno) VALUES (1,'julia',830000000,'muculacao',2);
