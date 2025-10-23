@@ -1,5 +1,6 @@
 # Projeto Catolica Fit
 ---
+# Equipe = Fabricio Nathan, Pedro Ayrlex, Sydney, DiogoCoffe, Stenio
 
 ## 1. Contexto do negócio
 Ideia: Facilitar a inscrição  de um aluno em uma academia.
